@@ -1,0 +1,50 @@
+*{margin:0; padding:0; box-sizing:border-box; color:#333; font-family: "Nanum Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+img{vertical-align:bottom;}
+addres{font-style:none;}
+form input{outline:none; line-height:2em; font-size:0.9em; border:none;}
+label{width:100%; line-height:2em; font-size:0.75em; border:none;}
+fieldset{overflow:hidden; border:none;}
+
+div.question_top{overflow:hidden; width:70%; margin:0 auto;}
+div.question_top_box{width:100%; background:#fff; padding:2% 0; }
+
+div.question_top_left{width:30%; float:left; padding:4% 3%;}
+div.question_top_left>h2{font-size:1em; font-weight:400; border-top:1px solid #000; display:inline; padding-top:5%; margin-top:3%;}
+div.question_top_left>h3{line-height:2em; margin:13% 0;}
+div.question_top_left>p{width:10%;border-top:1px solid #999; margin:5% 0;}
+div.question_top_left>div{line-height:2em; color:#999;}
+div.question_top_right{background:red; width:70%; height:250px; float:left;}
+div.question_top_right>img{width:100%;}
+
+
+section#question{}
+div.question{width:50%; margin:0% auto 5%;}
+div.question>h1{margin:5% 0;}
+
+div.top_question>ul>li>a{display:block;}
+
+p.Q_question{width:100%; padding:2%; border-bottom:1px solid #ddd;}
+p.Q_question>img{float:right; width:2%; vertical-align:middle;}
+p.A_question{width:100%; background:#eee; padding:2%; display:none;}
+
+p.Q_question span{color:#f00707; font-weight:600;}
+p.A_question span{color:#3091f5; font-weight:600;display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

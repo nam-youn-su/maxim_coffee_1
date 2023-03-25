@@ -1,0 +1,40 @@
+*{margin:0; padding:0; box-sizing:border-box; color:#333; font-family: "Nanum Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+img{vertical-align:bottom;}
+addres{font-style:none;}
+
+section#member{margin-bottom:5%; text-align:center;}
+
+p#text_r{color:red; font-weight:600;}
+
+div.icon{margin:2.5% 0; padding-bottom:2.5%; border-bottom:1px solid #eee;}
+div.icon ul{overflow:hidden; width:50%;margin:0 auto; }
+div.icon li{width:25%; float:left;text-align:center; margin-top:5%; position:relative;}
+span.line{width:75%; height:1px; border-bottom:1px solid #333; position:absolute; right:-36%; top:20%;}
+
+div.icon_img{}
+div.icon_img img{width:28%; margin:5% 0;}
+
+div.icon p{color:#333; text-align:center; margin:2% 0;}
+h3{text-align:center; margin-bottom:3%;}
+
+
+div.bottom_content input,select{border:0;}
+
+div.bottom_content{width:30%; margin:5% auto 0;}
+div.bottom_content input{width:100%; line-height:3em; padding-left:1%; margin-bottom:10%; border:0; border-bottom:1px solid #ddd;}
+
+fieldset{border:0;}
+
+fieldset.YMD{width:100%; overflow:hidden;}
+fieldset.YMD input,select{width:31.333%; float:left;}
+fieldset.YMD select{margin:0 1%;}
+select{padding:2%; border-bottom:1px solid #ddd}
+
+input#cell_phone{margin:10% 0;}
+select#user_gugjeog{margin-right:1%;}
+
+form>input:last-child{width:30%; display:block; margin:0 auto;}
+form>input:last-child:hover{background:#ed1b24; color:#fff;}
+form{margin-bottom:5%;}

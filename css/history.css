@@ -1,0 +1,35 @@
+*{margin:0; padding:0; box-sizing:border-box; color:#333; font-family: "Nanum Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+img{vertical-align:bottom;}
+addres{font-style:none;}
+
+
+#history{margin-bottom:3%; margin-top:100px;}
+
+div.history{width:70%; margin:0 auto;}
+div.history>h1{margin:5% 0;}
+
+div.history_last{padding:1% 20% 3%; line-height:1.7em; margin:5% 0; border-bottom:2px solid #ddd; border-top:2px solid #ddd;}
+div.history_last>h2{text-align:center; padding:5% 0;}
+
+div.history_s{overflow:hidden; width:100%;}
+div.history_s h2{}
+div.history_s p{}
+
+div.history_img{width:50%; height:550px; overflow:hidden;}
+div.history_img img{width:100%;}
+div.history_left{}
+div.history_left div.history_img{float:left;}
+div.history_left h2{float:right; width:50%; margin:4% 0 2%; padding:0 5%;}
+div.history_left p{line-height:2em; width:50%; float:right; padding:0 7%;}
+
+div.history_right{}
+div.history_right div.history_img{float:right;}
+div.history_right h2{float:left; width:50%;  margin:4% 0 2%; padding:0 5%;}
+div.history_right p{line-height:2em; width:50%; float:left; padding:0 7%;}
+
+
+div.content *{opacity:0;}
+div.content h1{text-align:center;}
+div.content .on{opacity:1; transition:1s;}

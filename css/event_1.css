@@ -1,0 +1,27 @@
+*{margin:0; padding:0; box-sizing:border-box; color:#333; font-family: "Nanum Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+img{vertical-align:bottom;}
+addres{font-style:none;}
+
+body{background:url(../img/event_3/moca_bg.jpg) no-repeat;
+background-size:cover; text-align:center;}
+
+section#event img{width:45%;}
+
+div.event{width:70%; margin:0 auto;}
+
+div.event_logo{margin:10% 0;}
+
+div.text_1{margin:6% 0;}
+
+div.text_2{margin:10% 0;}
+
+ul.event_icon{overflow:hidden;}
+ul.event_icon li{float:left; width:25%;}
+ul.event_icon li a{display:block;}
+
+ul.event_icon>li>a:nth-child(1):hover{}
+
+div.text_3>h2{margin:10% 0;}
+div.text_3>div{margin:10% 0 15%;}

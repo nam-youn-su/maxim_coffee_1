@@ -1,0 +1,32 @@
+*{margin:0; padding:0; box-sizing:border-box; color:#333; font-family: "Nanum Gothic", "나눔고딕", "NanumGothic", "돋움", "Dotum", sans-serif;}
+a{text-decoration:none;color:#333;}
+li{list-style:none;}
+img{vertical-align:bottom;}
+addres{font-style:none;}
+
+section#login{}
+
+div.login_top{width:70%; margin:0 auto; text-align:center; padding:3% 0;}
+div.login_top>p{width:100px; padding:1% 0 3%; margin:2% auto 3%; font-size:2em; font-weight:light; border-bottom:1px solid #333;}
+ul.h2_bottom{overflow:hidden; width:15%; font-size:0.75em; margin:0 auto;}
+ul.h2_bottom li{width:33.333%; float:left; color:#898989;}
+ul.h2_bottom li img{width:25%;}
+
+form.login_text{margin:0 auto; width:20%; overflow:hidden;}
+form.login_text input[type="text"],
+form.login_text input[type="password"]{width:100%; line-height:4em; margin-bottom:4%; border:1px solid #e7e7e7; padding-left:1.5%;}
+
+form.login_text input[type="submit"]{width:48%; padding:5% 0; float:left; border:1px solid #e7e7e7;}
+form.login_text input[type="submit"]:hover{cursor:pointer;  background:#ed1b24; color:#fff;}
+
+input.login_btn_1{margin-right:4%;}
+
+
+ul.a_s{width:60%; margin:0 auto; overflow:hidden; text-align:center; padding:10% 0 0;}
+ul.a_s li{width:33.333%; float:left; font-size:0.75em; font-weight:600;}
+
+ul.naver_kakao{width:30%; margin:3% auto; overflow:hidden;}
+ul.naver_kakao li{width:50%; float:left; text-align:center;}
+ul.naver_kakao>li:first-child{border-right:1px solid #e7e7e7;}
+ul.naver_kakao li img{width:40%; margin-bottom:5%;}
+
