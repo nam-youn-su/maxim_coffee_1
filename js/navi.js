@@ -1,21 +1,21 @@
 $(function(){
 //네비게이션popup	
-		$(".product_li_1").mouseenter(function(){			
+		$(".product_li_1").mouseover(function(){			
 			$( '.right_navi_2>img' ).removeAttr( 'src' );
 			$( '.right_navi_2>img' ).attr( 'src','img/nav/product_img_1.jpg');			
 		});//mouseEnter1
 		
-		$(".product_li_2").mouseenter(function(){			
+		$(".product_li_2").mouseover(function(){			
 			$( '.right_navi_2>img' ).removeAttr( 'src' );
 			$( '.right_navi_2>img' ).attr( 'src','img/nav/product_img_2.jpg');			
 		});//mouseEnter2
 		
-		$(".product_li_3").mouseenter(function(){			
+		$(".product_li_3").mouseover(function(){			
 			$( '.right_navi_2>img' ).removeAttr( 'src' );
 			$( '.right_navi_2>img' ).attr( 'src','img/nav/product_img_3.jpg');			
 		});//mouseEnter3
 		
-		$(".product_li_4").mouseenter(function(){			
+		$(".product_li_4").mouseover(function(){			
 			$( '.right_navi_2>img' ).removeAttr( 'src' );
 			$( '.right_navi_2>img' ).attr( 'src','img/nav/product_img_4.jpg');			
 		});//mouseEnter4
